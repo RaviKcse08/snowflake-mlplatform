@@ -1,6 +1,7 @@
 import argparse
 import os
 from typing import Optional
+import pandas as pd
 
 from snowflake.ml.feature_store import CreationMode, FeatureStore
 from snowflake.snowpark import Session
